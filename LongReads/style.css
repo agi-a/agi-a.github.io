@@ -1,0 +1,302 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+}
+
+.final {
+    height: 230px;
+    border: 4px solid #000;
+    border-radius: 4px;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+
+.contenedor {
+    width: 90%;
+    min-width: 400px;
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    /*border: 1px solid;*/
+}
+
+.izq {
+    width:100%;
+}
+
+.izq p {
+  padding-right:330px;
+
+}
+
+.elementos{
+    position: relative;
+}
+
+p {
+    font-size: 18px;
+    text-align: left;
+}
+
+li {
+    line-height: 20px;
+}
+
+.lista {
+    text-align: center;
+    font-weight: bolder;
+    margin: 40px;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+
+/* COLORES */
+
+.blanco {
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* ELEMENTOS*/
+
+.bg-negro {
+    padding-top: 5px;
+    background-color: black;
+    width: 100%;
+    height: 1250px;  
+}
+
+.bg-azul {
+    padding-top: 5px;
+    background-color: rgb(0, 16, 85);
+    width: 100%;
+    height: 1600px;
+}
+
+.bg-verde {
+    padding-top: 5px;
+    background-color: rgb(0, 39, 9);
+    width: 100%;
+    height: 1450px;
+}
+
+.linea {
+    background-color: rgb(255, 255, 255);
+    width: 5px;
+    height: 5px;
+    transition: all 1s;
+}
+
+.linea.visible {
+    width: 100%;
+    height: 5px;
+}
+
+/* TITULOS / SUBTITULOS*/
+
+
+h1 {
+    font-size: 40px;
+    text-decoration: underline; 
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px; 
+    text-align: center;
+}
+
+h3 {
+    font-size: 35px;
+    text-align: left;
+    margin-top: 50px;
+}
+
+h3.blanco {
+    margin-bottom: 5px;
+}
+
+.paises h3 {
+    width: 100%;
+    /*border: 1px solid;*/
+    transition: all 500ms ;
+    transform: translateX(200%);
+}
+
+.paises.visible h3 {
+    transform: translateX(0)
+}
+
+h4 {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+
+/* IMAGENES / GIF */
+
+
+img {
+    width: 49%;  
+}
+
+.Germany {
+    position: relative;
+    margin-top: 10px;
+    height: 290px;
+}
+
+.ger {
+    
+    position: absolute;
+    filter: grayscale(100%);
+    transition: all 2s 500ms;
+}
+
+.ger.visible {
+    filter: grayscale(0%);
+}
+
+.ahr1 {
+    left: 0;
+
+}
+
+.ahr2 {
+    right: 0;
+    top: 10px;
+}
+
+.alk {
+    width: 450px;
+    box-shadow: #fff 10px 10px 20px;
+    margin-top: 30px;
+    transition: all 500ms ;
+    transform: translateX(200%);
+}
+
+.alk.visible {
+    transform: translateX(0)
+}
+
+.cuba {
+    height: 200px;
+    margin: 40px;
+    /*border: 1px solid;*/
+}
+
+.cb1, .cb2 {
+    width: 75px;
+    margin: 0 auto;
+    margin-top: 80px;
+    transition: all 1s 200ms;
+}
+
+.cb1.visible {
+    transform: scale(800%);
+}
+
+.cb2.visible {
+    transform: scale(500%);
+}
+
+.intro {
+    width: 200px;
+    height: 150px;
+
+}
+
+.tun {
+    width: 250px;
+    height: 190px;
+    opacity: 0%;
+    transition: all 2s 100ms;
+}
+
+.tun.visible {
+    opacity: 100%;
+}
+
+.ant1 {
+    width: 500px;
+    transition: all 2.5s 300ms;
+    transform: rotate(180deg);
+    opacity: 0;
+    
+}
+
+.ant1.visible {
+    transform: rotate(360deg);
+    opacity: 100%;
+}
+
+.nic1 {
+    width: 500px;
+    transform: translateX(-600px);
+    transition: all 1s 300ms;
+}
+
+.nic1.visible {
+    transform: translateX(0);
+}
+
+.nic2 {
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    transition: all 2s;
+    filter: blur(9px);
+}
+
+.nic2.visible {
+    filter: blur(0);
+}
+
+.imagenes {
+   border-left: 4px dotted;
+   border-right: 4px dotted;
+   width: 800px;  
+}
+
+.tunisia {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    padding-top: 50px; 
+}
+
+.gif {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    top: 0px;
+    right:0px;  
+}
+
+video {
+    width: 800px;
+    margin-bottom: 30px;
+}
+
+.parallax-window {
+    min-height:300px;
+    background: transparent;
+    margin-top: 50px;
+    }
