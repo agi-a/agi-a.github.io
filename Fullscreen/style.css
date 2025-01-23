@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+    height: 90vh;
+    background-image: url("local2.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+main.contacto{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+main.proyecto {
+    background-image: url("cerrado.png");
+}
+
+main.como {
+    background-image: url("mapa.jpg");
+}
+
+header, footer {
+    height: 5vh;
+    background-color: rgb(43, 0, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: right;
+}
+
+header {
+    margin: 0;
+}
+
+nav {
+    width: 350px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.redes  {
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    opacity: 90%;
+    transition: all 200ms;
+}
+
+a:hover {
+    font-weight: bolder;
+    opacity: 100%;
+}
+
+
+h1 {
+    font-size: 23px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h2.subtitulo, h3 {
+    text-align: center;
+}
+span {
+    text-decoration: underline;
+}
+
+.intro {
+    margin-top: 120px;
+    width: 80%;
+    padding: 30px;
+    /*border: 2px solid #000;*/
+    color: #fff;
+
+}
+
+.intro-proyecto {
+    width: 60%;
+    padding: 30px;
+    color: #fff;
+}
+
+.intro-contacto {
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, .9);
+    margin-bottom: 30px;
+}
+
+.fondo {
+    padding: 30px ;
+    background-color: rgba(43, 0, 255, .4) ;
+    transition: all 1s
+}
+
+.fondo2 {
+    margin-top: 50px;
+    background-color: rgba(43, 0, 255, .4);
+    padding: 30px;
+    transition: all 1s;
+}
+
+.fondo:hover, .fondo2:hover, .fondo-como:hover {
+    background-color:rgb(43, 0, 255);
+
+}
+
+.fondo-proyecto {
+    width: 50%;
+    margin-top: 120px;
+    background-color: rgba(43, 0, 255, .6);
+    padding: 20px;
+    height: min-content;
+    display: flex;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.fondo-proyecto:hover {
+    background-color:rgb(43, 0, 255) ;
+    width: 100%;
+}
+
+.fondo-como {
+    background-color:rgba(43, 0, 255, .7) ;
+    padding: 20px;
+    border-radius: 30px;
+    transition: all 1s; 
+}
+
+.texto {
+   background-color: rgb(255, 255, 255); 
+   padding: 15px;
+   margin: 20px;
+}
+
+p {
+    font-size: 40px;
+    text-align: center;
+}
+
+p.proyecto, .texto-como {
+    font-size: 20px;
+    text-align: left;
+}
+
+.texto-como {
+    color: blue;
+}
+
+p.contacto1 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(0, 0, 255);
+}
+
+p.contacto {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+.correo {
+    background-color: rgba(0, 0, 255, .7);
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+
+.datos {
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    height: 30px;
+}
+
+
+
+
